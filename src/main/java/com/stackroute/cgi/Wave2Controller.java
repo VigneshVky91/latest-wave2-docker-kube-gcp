@@ -10,4 +10,9 @@ public class Wave2Controller {
 	public String getMessage() {
 		return "Welcome to IBM NHT Wave 2 batch";
 	}
+
+	@GetMapping("/")
+	public String sayHi() {
+		return "Default message";
+	}
 }

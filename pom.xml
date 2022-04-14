@@ -36,6 +36,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
+		<finalName>latest-wave2-docker-kube-gcp</finalName>
 	</build>
 
 </project>
