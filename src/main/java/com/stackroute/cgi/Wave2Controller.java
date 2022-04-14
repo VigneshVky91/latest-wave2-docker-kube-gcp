@@ -8,7 +8,7 @@ public class Wave2Controller {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Welcome to IBM NHT Wave 2 batch";
+		return "Latest-Wave2_Docker-Kube-GCP is working successfully";
 	}
 
 	@GetMapping("/")
